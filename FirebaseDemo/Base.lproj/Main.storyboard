@@ -551,6 +551,11 @@
                                     <action selector="showDoctorLocationPressed:" destination="Acj-qm-vJm" eventType="touchUpInside" id="YbW-fy-0bs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImY-lt-Ilj">
+                                <frame key="frameInset" minX="164" minY="360" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -569,11 +574,30 @@
                         <outlet property="fullnameLabel" destination="gF6-jF-ne3" id="qOM-Tk-Xpa"/>
                         <outlet property="specialistsLabel" destination="WSI-ZQ-uwD" id="3fd-HV-ltj"/>
                         <segue destination="KiS-Ej-EHK" kind="show" identifier="MapVC" id="WPn-8l-90a"/>
+                        <segue destination="I40-E0-vzu" kind="show" id="4Wm-PO-baG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kvx-EU-W3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5772" y="901.79910044977521"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jWG-gm-LmY">
+            <objects>
+                <viewController id="I40-E0-vzu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J49-JB-fb8"/>
+                        <viewControllerLayoutGuide type="bottom" id="r4s-TX-5nK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2I4-7p-Dbc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97S-mA-oqo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5772" y="1607"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="Q6H-WP-caU">
@@ -755,7 +779,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgm-Ec-sD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4230" y="212"/>
+            <point key="canvasLocation" x="4230" y="1606"/>
         </scene>
         <!--Navigation Menu View Controller-->
         <scene sceneID="3u8-ou-5Hb">
@@ -977,7 +1001,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYm-Ig-aL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5049" y="1601"/>
+            <point key="canvasLocation" x="5049" y="1606"/>
         </scene>
     </scenes>
     <resources>
